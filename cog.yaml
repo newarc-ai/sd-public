@@ -1,0 +1,12 @@
+image: "r8.im/kirillrogovoy/newarc-controlnet-deliberate"
+build:
+  gpu: true
+  cuda: "11.7"
+  system_packages:
+    - "python3-opencv"
+    # - "libgl1-mesa-glx"
+    # - "libglib2.0-0"
+  python_version: "3.8"
+  python_requirements: src/requirements.txt
+
+predict: "src/predict_controlnet_replicate.py:Predictor"

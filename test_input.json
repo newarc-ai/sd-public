@@ -1,0 +1,17 @@
+{
+  "input": {
+    "prompt": "photo of a sneaker, trendy style, high-end photography, detail-oriented, vibrant colors, clean composition, modern, urban, minimalist, top-quality, hd, 4k, (Photo style)+",
+    "image_url": "https://www.newarc.ai/s3/all/SJoAMyWT-AlbvBKKfRRfX.jpg",
+    "width": 751,
+    "height": 521,
+    "controlnet_scale": 0.7,
+    "steps": 30,
+    "guidance_scale": 9,
+    "scheduler": "DPM",
+    "karass": true,
+    "seed": 1337,
+    "lora_a1111_url": "https://data.newarc.ai/lora_add_details.safetensors",
+    "lora_scale": 2.5,
+    "compel": true
+  }
+}
